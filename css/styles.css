@@ -1,0 +1,74 @@
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+  font-size: 18px;
+  overflow-y: hidden;
+}
+
+
+table{
+  text-align: center;
+  margin: 14% auto 0 auto;
+}
+td{
+    padding:5px 24px 0 24px;
+}
+span,.font-400,.city{
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+p.city{
+  font-size: 0.8rem;
+}
+.name span{
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+}
+.name{
+  margin-bottom: 0px;
+}
+
+.card-header{
+  margin-top: 4rem;
+}
+.bg_img_bottom{
+  position: absolute;
+ left: 48%;
+ top: 52%;
+}
+.bg_img_top{
+  position: absolute;
+  right: 52%;
+  bottom: 38%;
+}
+
+.card
+{
+  position: absolute;
+  top: 26%;
+  left: 37.5%;
+  background: white;
+  height: 380px;
+  width: 350px;
+  border-radius: 5%;
+}
+.profile_img{
+  border-radius: 100%;
+  position: absolute;
+  top:5.625rem;
+  left: 7.9rem;
+  border: 5px solid white;
+
+}
+.bg-pattern-card{
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+/* attribution */
+.attribution{
+  position: absolute;
+  bottom: 10px;
+  left: 40%
+}
